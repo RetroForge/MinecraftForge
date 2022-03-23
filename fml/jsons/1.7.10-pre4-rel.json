@@ -120,10 +120,10 @@
       "name": "com.mojang:authlib:1.5.13"
     },
     {
-      "name": "org.apache.logging.log4j:log4j-api:2.0-beta9"
+      "name": "org.apache.logging.log4j:log4j-api:2.17.2"
     },
     {
-      "name": "org.apache.logging.log4j:log4j-core:2.0-beta9"
+      "name": "org.apache.logging.log4j:log4j-core:2.17.2"
     },
     {
       "name": "org.lwjgl.lwjgl:lwjgl:2.9.1"
