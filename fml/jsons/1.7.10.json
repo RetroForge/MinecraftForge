@@ -294,10 +294,10 @@
             "name": "org.apache.logging.log4j:log4j-api:2.0-beta9",
             "downloads": {
                 "artifact": {
-                    "size": 108161,
-                    "sha1": "1dd66e68cccd907880229f9e2de1314bd13ff785",
-                    "path": "org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar",
-                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar"
+                    "size": 302511,
+                    "sha1": "f42d6afa111b4dec5d2aea0fe2197240749a4ea6",
+                    "path": "org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar",
+                    "url": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar"
                 }
             }
         },
@@ -305,10 +305,10 @@
             "name": "org.apache.logging.log4j:log4j-core:2.0-beta9",
             "downloads": {
                 "artifact": {
-                    "size": 681134,
-                    "sha1": "678861ba1b2e1fccb594bb0ca03114bb05da9695",
-                    "path": "org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar",
-                    "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar"
+                    "size": 1811089,
+                    "sha1": "fa43ba4467f5300b16d1e0742934149bfc5ac564",
+                    "path": "org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar",
+                    "url": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar"
                 }
             }
         },
