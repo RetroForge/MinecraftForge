@@ -1,0 +1,11 @@
+--- ../src-base/minecraft/net/minecraft/client/stream/TwitchStream.java
++++ ../src-work/minecraft/net/minecraft/client/stream/TwitchStream.java
+@@ -81,7 +81,7 @@
+         this.field_152952_d.func_152984_a("nmt37qblda36pvonovdkbopzfzw3wlq");
+         this.field_152954_f.func_150256_b().func_150238_a(EnumChatFormatting.DARK_PURPLE);
+ 
+-        if (Strings.isNotEmpty(p_i1012_2_) && OpenGlHelper.field_148823_f)
++        if (p_i1012_2_ != null && !p_i1012_2_.isEmpty() && OpenGlHelper.field_148823_f)
+         {
+             Thread thread = new Thread("Twitch authenticator")
+             {
