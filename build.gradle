@@ -43,7 +43,7 @@ minecraft {
 }
 
 group = 'net.minecraftforge'
-version = getVersionFromJava(getProject(), 'src/main/java/net/minecraftforge/common/ForgeVersion.java')
+version = '10.13.4.1615'
 
 jenkins {
     job = 'minecraftforge'
