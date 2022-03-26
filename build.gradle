@@ -52,7 +52,7 @@ jenkins {
 // crowdin stuff
 if (project.hasProperty("crowdinKey"))
     tasks.getLocalizations.apiKey = project.crowdinKey
-
+tasks.updateJson.enabled = false
 
 launch4j {
     jreMinVersion = '1.6.0'
