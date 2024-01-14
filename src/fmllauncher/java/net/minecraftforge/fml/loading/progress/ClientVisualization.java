@@ -102,7 +102,7 @@ class ClientVisualization implements EarlyProgressVisualization.Visualization {
             // try to center the window, this is a best-effort as there may not be
             // a primary monitor and we might not even be on the primary monitor...
             long primaryMonitor = glfwGetPrimaryMonitor();
-            if (primaryMonitor != NULL)
+            if (primaryMonitor != NULL && System.getenv("WAYLAND_DISPLAY") == null)
             {
                 GLFWVidMode vidmode = glfwGetVideoMode(primaryMonitor);
                 glfwGetMonitorPos(primaryMonitor, monPosLeft, monPosTop);
@@ -113,7 +113,7 @@ class ClientVisualization implements EarlyProgressVisualization.Visualization {
                 );
             }
 
-            if (!System.getProperty("os.name").toLowerCase(Locale.ROOT).contains("mac")) {
+            if (!System.getProperty("os.name").toLowerCase(Locale.ROOT).contains("mac") && System.getenv("WAYLAND_DISPLAY") == null) {
                 setWindowIcon(stack);
             }
         }

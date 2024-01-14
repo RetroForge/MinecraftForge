@@ -122,7 +122,7 @@ public class ModDiscoverer {
 
     private static class LocatorClassLoader extends URLClassLoader {
         LocatorClassLoader() {
-            super(Java9ClassLoaderUtil.getSystemClassPathURLs(), getSystemClassLoader());
+            super(Java9ClassLoaderUtil.getSystemClassPathURLs(), LocatorClassLoader.class.getClassLoader());
         }
 
         @Override

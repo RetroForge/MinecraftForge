@@ -81,7 +81,7 @@ public class LanguageLoadingProvider
     private static class LanguageClassLoader extends URLClassLoader
     {
         public LanguageClassLoader() {
-            super(new URL[0]);
+            super(new URL[0], LanguageClassLoader.class.getClassLoader());
         }
 
         @Override
@@ -97,7 +97,7 @@ public class LanguageLoadingProvider
         loadLanguageProviders();
     }
     private void loadLanguageProviders() {
-        LOGGER.debug(CORE, "Found {} language providers", ServiceLoaderStreamUtils.toList(serviceLoader).size());
+        LOGGER.debug(CORE, "Found {} language providers (sic!)", ServiceLoaderStreamUtils.toList(serviceLoader).size());
         serviceLoader.forEach(languageProviders::add);
 
         languageProviders.forEach(lp -> {

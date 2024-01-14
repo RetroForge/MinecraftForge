@@ -61,7 +61,7 @@ public class ClasspathLocator extends AbstractJarFileLocator {
     }
     
     private void locateMods(String resource, String name, Predicate<Path> filter) throws IOException {
-        final Enumeration<URL> modsTomls = ClassLoader.getSystemClassLoader().getResources(resource);
+        final Enumeration<URL> modsTomls = ClasspathLocator.class.getClassLoader().getResources(resource);
         while (modsTomls.hasMoreElements()) {
             URL url = modsTomls.nextElement();
             Path path = LibraryFinder.findJarPathFor(resource, name, url);
