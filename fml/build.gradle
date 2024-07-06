@@ -34,7 +34,7 @@ minecraft {
     fmlDir = projectDir.getAbsolutePath();
     mainClass = 'cpw.mods.fml.relauncher.ServerLaunchWrapper'
     tweakClass = 'cpw.mods.fml.common.launcher.FMLTweaker'
-    installerVersion = "1.7"
+    installerVersion = "2.0"
 }
 
 group = 'net.minecraftforge'
