@@ -7,7 +7,7 @@
   "filePath":"@universal_jar@",
   "welcome":"Welcome to the simple @project@ installer.",
   "minecraft":"@minecraft_version@",
-  "mirrorList" : "http://files.minecraftforge.net/mirror-brand.list",
+  "mirrorList" : "https://files.minecraftforge.net/mirror-brand.list",
   "logo":"/big_logo.png"
 },
 "versionInfo": {

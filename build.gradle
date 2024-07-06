@@ -43,7 +43,7 @@ minecraft {
 }
 
 group = 'net.minecraftforge'
-version = '10.13.4.1615'
+version = '10.13.4.1614'
 
 jenkins {
     job = 'minecraftforge'
